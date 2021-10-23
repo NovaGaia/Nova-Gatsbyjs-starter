@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunknova_gatsbyjs_starter=self.webpackChunknova_gatsbyjs_starter||[]).push([[678],{7704:function(e,t,a){a.r(t);var n=a(7294),r=(a(5444),a(960));t.default=function(){return n.createElement(n.Fragment,null,n.createElement(r.Ar,{className:"container mx-auto max-w-screen-lg"},n.createElement(r.HJ,{title:"Titre de la page SEO",description:"Description de la page SEO"}),n.createElement("h1",null,"test")))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-87a4e29061b6f0309c7e.js.map

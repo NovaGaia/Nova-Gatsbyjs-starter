@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-page-2-mdx",
+    "path": "/page2/",
+    "result": {"pageContext":{"frontmatter":{"title":"Page 2","slug":"page2/","description":"description","image":"../assets/mainBCG.jpg"}}},
+    "staticQueryHashes": ["1304874240","3159585216"]}

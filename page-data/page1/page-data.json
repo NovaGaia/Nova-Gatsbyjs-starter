@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-page-1-mdx",
+    "path": "/page1/",
+    "result": {"pageContext":{"frontmatter":{"title":"Page 1","slug":"page1/","description":"description","image":"../assets/mainBCG.jpg"}}},
+    "staticQueryHashes": ["1304874240","3159585216"]}
