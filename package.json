@@ -14,7 +14,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "close": "gatsby clean && rm -rf node_modules/ ",
-    "changelog": "auto-changelog -p  && git add HISTORY.md"
+    "changelog": "auto-changelog -p  && git add HISTORY.md",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
@@ -31,6 +32,7 @@
     "gatsby-plugin-tailwindcss": "^1.0.3",
     "gatsby-source-filesystem": "^3.14.0",
     "gatsby-transformer-sharp": "^3.14.0",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.3.9",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

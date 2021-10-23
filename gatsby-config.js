@@ -3,15 +3,16 @@ require('dotenv').config({
 })
 const siteUrl = process.env.GATSBY_SITE_URL || `https://example.com/`
 module.exports = {
+  pathPrefix: '/Nova-Gasby-starter',
   siteMetadata: {
-    title: 'Le site des Shifters',
+    title: 'NovaGaïa Starter site',
     description: `la description`,
-    author: `@theshifters`,
-    titleTemplate: `%s | Les Shifters`,
+    author: `@novagaia`,
+    titleTemplate: `%s | NovaGaïa Starter`,
     url: siteUrl,
     siteUrl: siteUrl,
     image: `/mainBCG.jpg`,
-    twitterUsername: `@theshifters`,
+    twitterUsername: `@novagaiafr`,
   },
   plugins: [
     'gatsby-plugin-tailwindcss',
@@ -25,7 +26,6 @@ module.exports = {
         icon: 'src/assets/icon.png',
       },
     },
-    // `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {

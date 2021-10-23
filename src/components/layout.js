@@ -12,6 +12,10 @@ import Sidebar from './Sidebar'
 import { SkipNavContent, SkipNavLink } from './SkipNav'
 
 const Layout = ({ children, className }) => {
+  // add default style
+  if (className === undefined) {
+    className = 'container mx-auto max-w-screen-lg'
+  }
   const [isOpen, setIsOpen] = React.useState(false)
   const toggleSidebar = () => {
     setIsOpen(!isOpen)

@@ -30,7 +30,7 @@
     Naviguez dans le répertoire de votre nouveau site et démarrez-le.
 
     ```shell
-    cd sws/
+    cd Nova-Gatsbyjs-starter/
     npm run develop
     ```
 
