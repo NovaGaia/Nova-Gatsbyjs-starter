@@ -9,7 +9,7 @@
 
 ## 🕑 Plus d'informations sur les versions du projet :
 
-[HISTORY.MD](HISTORY.MD)
+[HISTORY.md](HISTORY.md)
 
 ## 🚀 Quick start
 
