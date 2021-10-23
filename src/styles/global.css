@@ -1,0 +1,128 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --darker-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  /* spacing */
+  --space-sm: 4px;
+  --space-md: 8px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-2xl: 24px;
+  --space-3xl: 48px;
+
+  --product-grid: 1fr;
+  /* size */
+  --size-input: var(--space-3xl);
+  --size-gap: 12px;
+  --size-gutter-raw: var(--space-2xl);
+  --size-gutter: calc(var(--size-gutter-raw) - 12px);
+  /* transitions */
+  --transition: box-shadow 0.125s ease-in;
+}
+
+/* shadow */
+.text-shadow-light {
+  text-shadow: var(--light-shadow);
+}
+.text-shadow-dark {
+  text-shadow: var(--dark-shadow);
+}
+.text-shadow-darker {
+  text-shadow: var(--darker-shadow);
+}
+
+/* base styles */
+html,
+p {
+  @apply text-primary;
+}
+h1 {
+  @apply text-5xl font-extrabold;
+}
+h2 {
+  @apply text-2xl font-bold;
+}
+h3 {
+  @apply text-2xl font-bold;
+}
+h4 {
+  @apply text-xl font-bold;
+}
+h5 {
+  @apply text-lg font-bold;
+}
+h6 {
+  @apply font-bold;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-heading;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+hr,
+blockquote {
+  @apply mb-3;
+}
+a {
+  @apply text-accent;
+}
+i,
+em {
+  @apply text-primary;
+}
+mark {
+  @apply bg-accent text-white pl-1 pr-1;
+}
+
+/* buttons */
+.btn,
+.btn-secondary {
+  @apply font-bold py-2 px-4 rounded bg-accent text-white shadow-md cursor-pointer;
+}
+.btn:hover {
+  @apply bg-primary;
+}
+.btn-secondary {
+  @apply bg-accent-light text-primary shadow-md;
+}
+.btn-secondary:hover {
+  @apply bg-primary text-white;
+}
+.btn-bar,
+.btn-bar-secondary {
+  @apply font-bold py-2 px-4 bg-accent text-white shadow-md cursor-pointer;
+}
+.btn-bar:first-child,
+.btn-bar-secondary:first-child {
+  @apply rounded rounded-r-none;
+}
+.btn-bar:last-child,
+.btn-bar-secondary:last-child {
+  @apply rounded rounded-l-none;
+}
+.btn-bar:hover {
+  @apply bg-primary;
+}
+.btn-bar-secondary {
+  @apply bg-accent-light text-primary shadow-md cursor-default;
+}
+.btn-bar-secondary:hover {
+  @apply bg-primary text-white;
+}

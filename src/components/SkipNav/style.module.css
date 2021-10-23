@@ -1,0 +1,11 @@
+.navLink {
+  @apply bg-primary rounded-br-sm text-black text-sm font-medium left-0 m-0 overflow-hidden p-3 absolute top-0;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.navLink:focus {
+  clip: auto;
+  height: auto;
+  width: auto;
+  z-index: 20;
+}
