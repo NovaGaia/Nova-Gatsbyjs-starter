@@ -4,18 +4,22 @@
   </a>
 </p>
 <h1 align="center">
-  Le site des Shifters
+  Starter NovaGaïa
 </h1>
+
+## 🕑 Plus d'informations sur les versions du projet :
+
+[HISTORY.MD](HISTORY.MD)
 
 ## 🚀 Quick start
 
 1.  **Git clone.**
 
-    Utiliser git pour récupérer le code du projet chez Gitlab
+    Utiliser git pour récupérer le code du projet chez GitHub
 
     ```shell
     # récuperer les sources
-    git clone https://gitlab.com/theshifters/sws.git
+    git clone https://github.com/NovaGaia/Nova-Gatsbyjs-starter
     ```
 
 2.  **Start developing.**

@@ -11,7 +11,7 @@ import Footer from './Footer'
 import Sidebar from './Sidebar'
 import { SkipNavContent, SkipNavLink } from './SkipNav'
 
-const Layout = ({ children }) => {
+const Layout = ({ children, className }) => {
   const [isOpen, setIsOpen] = React.useState(false)
   const toggleSidebar = () => {
     setIsOpen(!isOpen)
@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
       <SkipNavLink />
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
-      <SkipNavContent>{children}</SkipNavContent>
+      <SkipNavContent className={className}>{children}</SkipNavContent>
       <Footer />
     </>
   )

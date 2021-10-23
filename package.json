@@ -1,9 +1,9 @@
 {
-  "name": "sws",
-  "version": "1.0.1",
+  "name": "nova-gatsbyjs-starter",
+  "version": "1.0.0",
   "private": true,
-  "description": "sws",
-  "author": "the shifters",
+  "description": "Projet starter de NovaGaïa",
+  "author": "@novagaia",
   "keywords": [
     "gatsby"
   ],
